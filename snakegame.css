@@ -1,0 +1,98 @@
+:root {
+    --bg-primary-color: #080808;
+    --text-primary-color: white;
+    --border-color: #222;
+    --box-bg: #0d0d0d;
+
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+    font-family: Arial, sans-serif;
+}
+
+/* Main */
+main {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: var(--space-lg);
+}
+
+/* Outer section */
+.game-container {
+    width: 100%;
+    max-width: 1230px;
+    min-height: 680px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+
+    padding: 32px;
+
+    background-color: #080808;
+}
+
+/* Top information */
+.game-info {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+/* Score boxes */
+.info-box {
+    background-color: var(--box-bg);
+
+    border: 1px solid #222;
+    border-radius: 6px;
+
+    padding: 7px 12px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    min-width: 110px;
+    text-align: center;
+}
+
+.score {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Game board */
+.game-board {
+    width: 100%;
+    height: 518px;
+
+    border: 1px solid #202020;
+
+    background-color: #090909;
+}
