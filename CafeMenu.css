@@ -1,0 +1,21 @@
+body{
+    background-image: url( Coffee\ Cup\ Coffee\ Beans\ Background.jpg);
+    font-family: sans-serif;
+    padding:20px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size :30px;;
+}
+.establish{
+    font-style:italic;
+}
+h1,h2,p{
+    text-align: center;
+}
+.menu{
+    width: 80%;
+    background-color: burlywood;
+}
