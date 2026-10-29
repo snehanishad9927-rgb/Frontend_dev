@@ -14,8 +14,20 @@ h2{
 }
 h1,h2,p{
     text-align: center;
+    
 }
 .menu{
     width: 80%;
-    background-color: rgb(151, 109, 53);
+    background-color: rgb(252, 223, 184);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+item,p{
+    display: inline-block;
+}
+.flavour{
+text-align: left;
+width: 75%;
 }
