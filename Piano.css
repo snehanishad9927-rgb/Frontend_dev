@@ -1,0 +1,12 @@
+html{
+    box-sizing: border-box;
+}
+.piano{
+    background-color: rgba(105, 0, 35, 0.644);
+    width:992px;
+    height: 290px;
+    margin:80px auto;
+    padding:90px 20px 0 20px;
+    position:relative;
+    border-radius: 10px;
+}
